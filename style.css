@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    padding: 2rem;
+    font-family: 'Press Start 2P';
+}
+
+header{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top p{
+    font-size: 1.5rem;
+}
+
+.btn-again{
+    padding: 1rem 2rem;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-color: aliceblue;
+    border-radius: 5px;
+}
+
+.texto-inicial{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 5rem;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    min-width: 200px;
+    border-radius: 5px;
+}
+
+.container-baixo{
+    display: flex;
+    gap: 2rem;
+    margin-top: 6rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.guess{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem 0;
+    max-width: 250px;
+    background-color: transparent;
+    border: 5px solid white;
+    color: white;
+}
+
+.btn-check{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-color: white;
+    margin-top: 2rem;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.texto-informativo p{
+    font-size: 1.9rem;
+}
+
+.scoreBoard p{
+    font-size: 1.9rem;
+}
